@@ -1,0 +1,10 @@
+/.env
+/.sass-cache
+/node_modules
+/app-built
+/app/static/coffeescript/*.js
+/app/static/coffeescript/**/*.js
+/app/static/coffeescript/*.map
+/app/static/coffeescript/**/*.map
+/app/static/sass/*.css
+/app/static/sass/**/*.css

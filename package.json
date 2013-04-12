@@ -1,0 +1,31 @@
+{
+  "name": "jquery-icbiacontrol-site",
+  "version": "0.0.0",
+  "description": "A little page to explain the jQuery icbiaControl plugin.",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "shelljs": "~0.1.2",
+    "shell-quote": "0.0.1",
+    "volo": "~0.2.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewwithanm/jquery-icbiacontrol.git"
+  },
+  "author": {
+    "name": "Matthew Tretter",
+    "email": "m@tthewwithanm.com",
+    "url": "http://matthewwithanm.com"
+  },
+  "engines": {
+    "node": "~0.10"
+  },
+  "volo": {
+    "baseUrl": "./app/static/js/",
+    "dependencies": {
+      "jquery": "github:jquery/jquery/1.9.1",
+      "Modernizr": "github:Modernizr/Modernizr/v2.6.2"
+    }
+  }
+}
